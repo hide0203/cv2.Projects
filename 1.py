@@ -10,7 +10,7 @@ while True:
     #frame= image from the camera 
     #cap.read()= returns the value of ret and frame
     if not ret:
-        print("Failed to display frame.")
+        print("Failed to grab frame.")
         break
 
     cv2.imshow("webcam feed", frame)  #cv2.imshow = displays the image from camera
